@@ -7,12 +7,12 @@ For this assignment, you will submit a high-level outline of your project. This 
 ## Submission Instructions
 
 ### Overview
-Have you ever wondered how much you save on fuel while riding your bike? Likewise, have you ever wondered how many donuts you could buy with those savings? This sweet little app can answer both questions! Inspired by my love for both donuts and cycling and the desire to take some of the seriousness out of Strava while still tracking mileage, this app will provide post-ride analysis that includes total mileage, fuel savings and *roughly* how many donuts you can score with your hard-earned savings. Users will also have the option to search nearby donut shops and choose from different route options to find the donut route that is ideal for them and their bike. Sweet!
+Have you ever wondered how much you save on fuel while riding your bike/commuting to work? This handy app does the calculations for you and allows users to donate all or a portion of those savings to local nonprofits that advocate for cycling safety/safer streets. As a bike rider who has commuted to work for years, I know how fun and rewarding it can be. I also know that one bonus of bike commuting is the fuel savings. Likewise, I have worked in the nonprofit sector and know how hard it is to find funding that helps create and maintain safer streets. This app is meant to celebrate active transportation, and good health through bike commuting, while connecting riders with local bike advocacy organizations.
 ### Features
-1. User login: Users will be able to create accounts and log in to the application. Each user will have a brief profile page.
-2. Fetch ride stats: Users will be able to fetch weekly and monthly cycling statistics (this data will be retrieved from the Strava API).
-3. Generate fuel savings and donut count: This feature will allow users to check and track their weekly and monthly fuel savings and get a *rough estimate of how many donuts they can purchase with their savings.
-4. Search: Users will be able to search nearby donut shops where they can spend their savings. Likewise, users will have the ability to search different route options to a selected donut spot. 
+1. User login: Users will be able to create accounts and log in to the application. Each user will have a short profile page.
+2. Fetch ride stats: Users will be able to fetch weekly and monthly cycling statistics (this data will be retrieved from the Strava V3 API).
+3. Generate fuel savings: This feature will allow users to check and track their weekly, monthly, and annual fuel savings.
+4. Search: Users will be able to search local bike advocacy nonprofits where they can donate their savings. 
 ### Technologies
 - Angular 
 - JavaScript
@@ -23,10 +23,10 @@ Have you ever wondered how much you save on fuel while riding your bike? Likewis
 - Firebase
 ### What I'll Have to Learn
 - How to create a mobile-friendly app using Bootstrap 4
-- How to work with the Strava API
+- How to work with the Strava V3 API
 - CRUD operations
 - User authentication and login/logout
 - Best way to caluculate fuel savings
 
 ### Project Tracker
-https://trello.com/b/7wudASYE/sweet-ride
+https://trello.com/b/JWLEhZwY/ride-it-forward-backlog
